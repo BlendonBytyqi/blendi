@@ -3,19 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <title>About Us | CHROMOCROWN</title>
-  <link rel="stylesheet" href="style.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: #000;
+    }
+
+    .logo {
+      color: #fff;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .about-container {
+      padding: 60px 40px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 40px;
+      border-radius: 8px;
+    }
+
+    .page-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .about-content p {
+      margin-bottom: 20px;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      background: #000;
+      color: #fff;
+      margin-top: 50px;
+    }
+  </style>
 </head>
+
 <body>
 
   <header class="navbar">
     <h2 class="logo">CHROMOCROWN</h2>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html" class="active">About</a>
-      <a href="products.html">Products</a>
-      <a href="news.html">News</a>
-      <a href="contact.html">Contact</a>
-      <a href="login.html">Login</a>
+      <a href="index.php">Home</a>
+      <a href="about.php" class="active">About</a>
+      <a href="products.php">Products</a>
+      <a href="news.php">News</a>
+      <a href="contact.php">Contact</a>
+      <a href="login.php">Login/Signup</a>
     </nav>
   </header>
 
@@ -31,23 +93,17 @@
 
       <p>
         The idea behind CHROMOCROWN was born from a deep appreciation for craftsmanship and the belief
-        that a watch is more than just a tool for telling time. It is a symbol of personality, success,
-        and legacy. With this philosophy in mind, the brand was created to offer watches that combine
-        innovation, tradition, and timeless design.
+        that a watch is more than just a tool for telling time.
       </p>
 
       <p>
         From the beginning, CHROMOCROWN focused on offering carefully selected watches from globally
         respected brands such as <strong>Casio</strong>, <strong>Rolex</strong>, and
-        <strong>Patek Philippe</strong>. Each brand represents a unique identity — Casio for reliability
-        and modern technology, Rolex for prestige and performance, and Patek Philippe for exceptional
-        craftsmanship and exclusivity.
+        <strong>Patek Philippe</strong>.
       </p>
 
       <p>
-        Established in 2025, CHROMOCROWN continues to grow as a modern watch retailer, blending traditional
-        horology with a contemporary digital experience while maintaining the highest standards of quality
-        and customer trust.
+        Established in 2025, CHROMOCROWN continues to grow as a modern watch retailer.
       </p>
     </div>
   </main>
