@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Products | CHROMOCROWN</title>
+  <title>testing</title>
 
   <style>
     * {
